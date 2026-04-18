@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="20" fill="url(#bg)"/>
+  <path
+    d="M32 17c2.7 0 5.5 1 7.5 3.1 2.1-2.1 4.8-3.1 7.5-3.1 6 0 10 4.5 10 10.1 0 9.8-13.6 18.3-25 24.9C20.6 45.4 7 36.9 7 27.1 7 21.5 11 17 17 17c2.7 0 5.4 1 7.5 3.1C26.5 18 29.3 17 32 17Z"
+    fill="url(#petal)"
+  />
+  <circle cx="32" cy="31" r="6.5" fill="#FFF6F2"/>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E4DD"/>
+      <stop offset="1" stop-color="#F1CCD2"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="14" y1="20" x2="51" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D67D96"/>
+      <stop offset="1" stop-color="#C56980"/>
+    </linearGradient>
+  </defs>
+</svg>

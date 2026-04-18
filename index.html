@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bloom Atelier | Свежие букеты с доставкой за 2 часа</title>
+    <meta
+      name="description"
+      content="Эстетичные авторские букеты с доставкой по городу. Свежие цветы, ручная сборка, красивая упаковка и быстрый заказ через форму, WhatsApp или Telegram."
+    >
+    <meta
+      name="keywords"
+      content="цветочная мастерская, доставка цветов, авторские букеты, заказать букет, Bloom Atelier, Москва"
+    >
+    <meta name="author" content="Bloom Atelier">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#fff7f3">
+    <meta property="og:site_name" content="Bloom Atelier">
+    <meta property="og:title" content="Bloom Atelier | Свежие букеты с доставкой за 2 часа">
+    <meta
+      property="og:description"
+      content="Нежные букеты, быстрая доставка, ручная сборка и помощь с выбором. Сайт цветочной мастерской Bloom Atelier."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/hero-bouquet.jpg">
+    <meta property="og:image:alt" content="Авторский букет Bloom Atelier для главного экрана сайта">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bloom Atelier | Свежие букеты с доставкой за 2 часа">
+    <meta
+      name="twitter:description"
+      content="Нежные букеты, быстрая доставка, ручная сборка и помощь с выбором. Сайт цветочной мастерской Bloom Atelier."
+    >
+    <meta name="twitter:image" content="assets/images/hero-bouquet.jpg">
+    <meta
+      name="twitter:image:alt"
+      content="Авторский букет Bloom Atelier для главного экрана сайта"
+    >
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Bloom Atelier">
+          <span class="brand__mark">BA</span>
+          <span class="brand__text">
+            <strong data-brand-name>Bloom Atelier</strong>
+            <small>цветочная мастерская</small>
+          </span>
+        </a>
+
+        <button class="header__toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="header__toggle-line"></span>
+          <span class="header__toggle-line"></span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+
+        <nav class="header__nav" id="site-nav">
+          <a href="#catalog">Букеты</a>
+          <a href="#about">О нас</a>
+          <a href="#benefits">Почему мы</a>
+          <a href="#process">Как заказать</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contact">Контакты</a>
+          <a class="button button--small button--ghost header__cta" href="#contact">Оставить заявку</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Авторские букеты и доставка по городу</p>
+            <h1>Свежие букеты с доставкой за 2 часа</h1>
+            <p class="hero__lead">
+              Собираем нежные композиции вручную из свежих сезонных цветов. Поможем выбрать букет на
+              свидание, день рождения, свадьбу или просто для красивого жеста без повода.
+            </p>
+
+            <div class="hero__actions">
+              <a class="button" href="#contact">Заказать букет</a>
+              <a class="button button--ghost" data-whatsapp-link target="_blank" rel="noreferrer">
+                Написать в WhatsApp
+              </a>
+            </div>
+
+            <ul class="hero__benefits" aria-label="Преимущества">
+              <li>Свежие цветы каждый день</li>
+              <li>Доставка день в день</li>
+              <li>Авторская упаковка и открытка</li>
+            </ul>
+
+            <div class="hero__metrics">
+              <article>
+                <strong>8+ лет</strong>
+                <span>опыта у флористов</span>
+              </article>
+              <article>
+                <strong>1 200+</strong>
+                <span>букетов собираем в год</span>
+              </article>
+              <article>
+                <strong>4.9 / 5</strong>
+                <span>средняя оценка клиентов</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal">
+            <div class="hero__shape hero__shape--one"></div>
+            <div class="hero__shape hero__shape--two"></div>
+
+            <figure class="hero__photo hero__photo--main">
+              <img src="assets/images/hero-bouquet.jpg" alt="Светлый авторский букет в стеклянной вазе">
+            </figure>
+
+            <figure class="hero__photo hero__photo--accent">
+              <img src="assets/images/process.jpg" alt="Флорист подбирает цветы для композиции">
+              <figcaption>Собираем букеты вручную под повод, бюджет и настроение.</figcaption>
+            </figure>
+
+            <div class="hero__badge">
+              <span>Сегодня можно оформить заказ и получить букет уже к вечеру</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="catalog">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Каталог букетов</p>
+            <h2>Композиции, которые хочется подарить сразу</h2>
+            <p>
+              Ниже собрали популярные варианты для сайта. Любой букет можно адаптировать по оттенкам,
+              составу, размеру и бюджету.
+            </p>
+          </div>
+
+          <!-- Контент каталога: меняйте фото, названия, цены и описания прямо в карточках ниже -->
+          <div class="catalog-grid">
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-blush.jpg" alt="Нежный розовый букет в пудровых оттенках">
+                <span class="catalog-card__badge">Хит</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Нежный розовый</h3>
+                  <strong class="catalog-card__price">от 4 900 ₽</strong>
+                </div>
+                <p>Пудровые розы, диантусы и мягкая упаковка в оттенках крема.</p>
+                <button class="button button--secondary order-trigger" type="button" data-bouquet="Нежный розовый">
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-cloud.jpg" alt="Воздушный белый букет с розами и гипсофилой">
+                <span class="catalog-card__badge">Для признаний</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Белое облако</h3>
+                  <strong class="catalog-card__price">от 5 400 ₽</strong>
+                </div>
+                <p>Воздушный букет с белыми розами и гипсофилой для самых деликатных моментов.</p>
+                <button class="button button--secondary order-trigger" type="button" data-bouquet="Белое облако">
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-garden.jpg" alt="Полевой букет с ромашками и зеленью">
+                <span class="catalog-card__badge">Сезонный</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Утренний сад</h3>
+                  <strong class="catalog-card__price">от 4 700 ₽</strong>
+                </div>
+                <p>Полевой характер, ромашки и текстурная зелень для легкого летнего настроения.</p>
+                <button class="button button--secondary order-trigger" type="button" data-bouquet="Утренний сад">
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-berry.jpg" alt="Яркий букет в розовых и ягодных оттенках">
+                <span class="catalog-card__badge">Яркий акцент</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Berry Mood</h3>
+                  <strong class="catalog-card__price">от 6 200 ₽</strong>
+                </div>
+                <p>Насыщенный микс розовых и ягодных оттенков, который сразу собирает взгляды.</p>
+                <button class="button button--secondary order-trigger" type="button" data-bouquet="Berry Mood">
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-atelier.jpg" alt="Кремовый букет со спрей-розами в фирменной упаковке">
+                <span class="catalog-card__badge">Минимализм</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Кремовый шелк</h3>
+                  <strong class="catalog-card__price">от 4 300 ₽</strong>
+                </div>
+                <p>Спрей-розы, кремовые бутоны и чистая упаковка для аккуратного, дорогого образа.</p>
+                <button class="button button--secondary order-trigger" type="button" data-bouquet="Кремовый шелк">
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-sunrise.jpg" alt="Яркий авторский букет в бумажной упаковке">
+                <span class="catalog-card__badge">Новинка</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Теплый рассвет</h3>
+                  <strong class="catalog-card__price">от 5 100 ₽</strong>
+                </div>
+                <p>Живой букет в бумаге с теплыми оттенками и расслабленной современной подачей.</p>
+                <button class="button button--secondary order-trigger" type="button" data-bouquet="Теплый рассвет">
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-romance.jpg" alt="Светлый букет с желтыми и розовыми акцентами">
+                <span class="catalog-card__badge">Комплимент</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Солнечное настроение</h3>
+                  <strong class="catalog-card__price">от 3 900 ₽</strong>
+                </div>
+                <p>Легкий букет с ромашковыми нотами и мягкими пастельными розами на каждый день.</p>
+                <button
+                  class="button button--secondary order-trigger"
+                  type="button"
+                  data-bouquet="Солнечное настроение"
+                >
+                  Заказать
+                </button>
+              </div>
+            </article>
+
+            <article class="catalog-card reveal">
+              <div class="catalog-card__media">
+                <img src="assets/images/bouquet-ivory.jpg" alt="Светлый свадебный букет в кремовых и пудровых оттенках">
+                <span class="catalog-card__badge">Событие</span>
+              </div>
+              <div class="catalog-card__body">
+                <div class="catalog-card__row">
+                  <h3>Свадебная классика</h3>
+                  <strong class="catalog-card__price">от 6 800 ₽</strong>
+                </div>
+                <p>Светлая композиция с белыми и пудровыми оттенками для особенных моментов.</p>
+                <button
+                  class="button button--secondary order-trigger"
+                  type="button"
+                  data-bouquet="Свадебная классика"
+                >
+                  Заказать
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="about">
+        <div class="container story">
+          <div class="story__visual reveal">
+            <figure class="story__image story__image--large">
+              <img src="assets/images/process.jpg" alt="Флорист в процессе сборки букета">
+            </figure>
+            <figure class="story__image story__image--small">
+              <img src="assets/images/storefront.jpg" alt="Вход в цветочную мастерскую Bloom Atelier">
+            </figure>
+          </div>
+
+          <div class="story__content reveal">
+            <p class="eyebrow">О нас и флористах</p>
+            <h2>Небольшая мастерская, где важны эмоции и детали</h2>
+            <p>
+              Bloom Atelier — камерная цветочная мастерская, где композиции собирают не по шаблону, а
+              под человека. Мы работаем с ежедневными поставками, выбираем цветок вручную и сразу думаем
+              не только о красоте букета, но и о том, как он будет выглядеть в момент вручения.
+            </p>
+            <p>
+              Здесь ценят естественную палитру, пропорции, воздух в композиции и аккуратную подачу.
+              Поэтому букеты выглядят мягко, современно и дорого, а заказ остается простым даже для тех,
+              кто выбирает цветы нечасто.
+            </p>
+
+            <div class="story__facts">
+              <article>
+                <strong>8+ лет</strong>
+                <span>опыта в авторской флористике</span>
+              </article>
+              <article>
+                <strong>Ежедневно</strong>
+                <span>отбираем свежие поставки вручную</span>
+              </article>
+              <article>
+                <strong>Под любой повод</strong>
+                <span>собираем букет от комплимента до свадьбы</span>
+              </article>
+            </div>
+
+            <ul class="check-list" aria-label="Принципы работы">
+              <li>Ручная сборка и внимание к пропорциям в каждой композиции.</li>
+              <li>Индивидуальные букеты под ваш бюджет, повод и цветовые предпочтения.</li>
+              <li>Подскажем оттенки, формат и размер без лишней переписки и сложных терминов.</li>
+              <li>Аккуратная упаковка, открытка и советы по уходу, чтобы букет дольше радовал.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="benefits">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Почему у нас покупают</p>
+            <h2>Все, что помогает заказать букет без лишнего стресса</h2>
+            <p>
+              Важны не только красивые фотографии. На решение о покупке влияет свежесть, понятный сервис
+              и уверенность, что букет доедет именно таким, как вы ожидаете.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 21c4.4-2.8 7-6 7-10a4 4 0 0 0-7-2.6A4 4 0 0 0 5 11c0 4 2.6 7.2 7 10Z"></path>
+                </svg>
+              </div>
+              <h3>Только свежие цветы</h3>
+              <p>Используем поставки дня и не оставляем в каталоге позиции, которые не держат форму и свежесть.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 12h16"></path>
+                  <path d="M12 4v16"></path>
+                  <circle cx="12" cy="12" r="9"></circle>
+                </svg>
+              </div>
+              <h3>Ежедневные поставки</h3>
+              <p>Каждое утро обновляем ассортимент, чтобы собирать букеты из актуальных, живых и красивых цветов.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12.5 9.2 17 19 7"></path>
+                  <path d="M12 3 4 6v6c0 5 3.4 8.4 8 9 4.6-.6 8-4 8-9V6l-8-3Z"></path>
+                </svg>
+              </div>
+              <h3>Контроль качества</h3>
+              <p>Проверяем каждый стебель, упаковку и финальный вид букета перед тем, как отправить клиенту.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 9 12 4l8 5-8 5-8-5Z"></path>
+                  <path d="M4 9v6l8 5 8-5V9"></path>
+                </svg>
+              </div>
+              <h3>Эстетичная упаковка</h3>
+              <p>Подбираем бумагу, ленты и открытки так, чтобы букет выглядел аккуратно и не перегруженно.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 18h.01"></path>
+                  <path d="M8.5 9a3.5 3.5 0 1 1 6.3 2.1c-.5.6-1.2 1-1.8 1.4-.8.5-1 1-1 1.5V15"></path>
+                  <circle cx="12" cy="12" r="9"></circle>
+                </svg>
+              </div>
+              <h3>Помощь с выбором</h3>
+              <p>Если не знаете, что выбрать, подскажем состав, оттенки и размер по вашему поводу и бюджету.</p>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m7 14 5-10 5 10"></path>
+                  <path d="M5 14h14"></path>
+                  <path d="M12 14v6"></path>
+                </svg>
+              </div>
+              <h3>Букеты под заказ</h3>
+              <p>Соберем индивидуальную композицию с учетом пожеланий по цвету, формату и срочности доставки.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="process">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Как проходит заказ</p>
+            <h2>Простой сценарий от выбора букета до вручения</h2>
+            <p>
+              Пользователю не нужно долго разбираться. Несколько понятных шагов приводят к заказу без
+              лишних действий и потери времени.
+            </p>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card reveal">
+              <span class="step-card__number">01</span>
+              <h3>Выбираете букет</h3>
+              <p>Смотрите каталог или пишете, какой нужен повод, бюджет и настроение композиции.</p>
+            </article>
+
+            <article class="step-card reveal">
+              <span class="step-card__number">02</span>
+              <h3>Пишете нам или оставляете заявку</h3>
+              <p>Можно отправить форму на сайте, позвонить или сразу уйти в WhatsApp / Telegram.</p>
+            </article>
+
+            <article class="step-card reveal">
+              <span class="step-card__number">03</span>
+              <h3>Подтверждаем детали и оплату</h3>
+              <p>Уточняем адрес, время доставки, состав и при необходимости предлагаем несколько вариантов.</p>
+            </article>
+
+            <article class="step-card reveal">
+              <span class="step-card__number">04</span>
+              <h3>Доставляем букет вовремя</h3>
+              <p>Бережно упаковываем композицию и передаем ее курьеру или готовим к самовывозу из мастерской.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Отзывы</p>
+            <h2>Клиенты возвращаются за эмоцией, а не только за цветами</h2>
+            <p>Отзывы помогают снять сомнения и показывают, что магазин держит качество не только на фото.</p>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal">
+              <span class="review-card__stars" aria-label="Оценка 5 из 5">★★★★★</span>
+              <blockquote>
+                Нужен был букет на годовщину в тот же день. Помогли выбрать, прислали фото перед
+                отправкой и доставили ровно ко времени. Очень спокойно и профессионально.
+              </blockquote>
+              <div class="review-card__author">
+                <span class="review-card__avatar">А</span>
+                <div>
+                  <strong>Андрей</strong>
+                  <span>заказ на годовщину</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <span class="review-card__stars" aria-label="Оценка 5 из 5">★★★★★</span>
+              <blockquote>
+                Заказывала букет маме. Вживую он выглядел даже лучше, чем на сайте: свежий, нежный и
+                очень аккуратно упакованный. Буду обращаться еще.
+              </blockquote>
+              <div class="review-card__author">
+                <span class="review-card__avatar">М</span>
+                <div>
+                  <strong>Мария</strong>
+                  <span>подарок на день рождения</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <span class="review-card__stars" aria-label="Оценка 5 из 5">★★★★★</span>
+              <blockquote>
+                Понравилось, что не пришлось разбираться в сортах цветов. Просто написал повод и бюджет,
+                а мне предложили три точных варианта без лишней переписки.
+              </blockquote>
+              <div class="review-card__author">
+                <span class="review-card__avatar">И</span>
+                <div>
+                  <strong>Илья</strong>
+                  <span>срочный заказ для встречи</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="review-card reveal">
+              <span class="review-card__stars" aria-label="Оценка 5 из 5">★★★★★</span>
+              <blockquote>
+                Собрали индивидуальную композицию под фотосессию и попали в настроение на сто процентов.
+                Цвета, упаковка и форма были очень точными и аккуратными.
+              </blockquote>
+              <div class="review-card__author">
+                <span class="review-card__avatar">А</span>
+                <div>
+                  <strong>Алина</strong>
+                  <span>индивидуальный букет</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="faq">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>Частые вопросы перед заказом</h2>
+            <p>
+              Этот блок помогает снять типовые возражения: по срокам доставки, наличию, оплате и
+              индивидуальным заказам.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item reveal" open>
+              <summary>Как быстро вы доставляете букет?</summary>
+              <p>
+                В среднем доставка по городу занимает от 2 часов. Точное время зависит от района,
+                загруженности курьеров и сложности композиции.
+              </p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>Можно ли оформить срочный заказ на сегодня?</summary>
+              <p>
+                Да. Если у нас есть свободные флористы и курьер, соберем и отправим букет день в день.
+                Для срочных заказов удобнее сразу писать в WhatsApp или звонить.
+              </p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>Какие цветы обычно есть в наличии?</summary>
+              <p>
+                Чаще всего в мастерской есть розы, эустома, хризантемы, диантусы, сезонная зелень и
+                акцентные цветы. Точный состав лучше уточнять в день заказа.
+              </p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>Можно ли собрать индивидуальный букет?</summary>
+              <p>
+                Да. Вы можете отправить референс, указать любимые оттенки, повод, размер и бюджет, а мы
+                предложим подходящий вариант композиции.
+              </p>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary>Как можно оплатить заказ?</summary>
+              <p>
+                Обычно доступны перевод, оплата по ссылке или наличные при самовывозе. При подключении
+                backend сюда можно добавить онлайн-оплату через платежный сервис.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Контакты и заявка</p>
+            <h2>Оставьте заявку, и мы подберем идеальный букет</h2>
+            <p>
+              Ответим в мессенджере или перезвоним в течение 10 минут, если заказ отправлен в рабочее
+              время.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <aside class="contact-card reveal">
+              <h3>Связаться с мастерской</h3>
+              <p class="contact-card__lead">
+                Выбирайте удобный способ: звонок, мессенджер или форма на сайте. Если нужен букет срочно,
+                лучше сразу написать в WhatsApp.
+              </p>
+
+              <!-- Контакты сайта: меняйте номер, мессенджеры, адрес и часы работы в начале файла script.js -->
+              <div class="contact-list">
+                <div class="contact-row">
+                  <span class="contact-row__icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5 4h4l2 5-2 1.5a13 13 0 0 0 4.5 4.5L15 13l5 2v4l-2 1c-8.3-.4-13.6-5.7-14-14L5 4Z"></path>
+                    </svg>
+                  </span>
+                  <div>
+                    <span>Телефон</span>
+                    <a data-phone-link href="#">
+                      <strong data-phone-label>+7 (999) 123-45-67</strong>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="contact-row">
+                  <span class="contact-row__icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M20 12a8 8 0 0 1-11.5 7.2L4 20l.8-4.5A8 8 0 1 1 20 12Z"></path>
+                      <path d="M9.5 10.2c.3-.7.5-.8.8-.8h.7c.2 0 .4.4.5.5l.8 1.9c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.2-.1.4.4.8 1.3 1.7 2.1 2.1.2.1.3 0 .4-.1l.6-.5c.2-.1.4-.2.6-.1l1.9.8c.2.1.5.3.5.5v.7c0 .3-.1.5-.8.8-.6.2-1.6.3-3.3-.3-1.5-.6-3-2.1-3.6-3.6-.6-1.7-.5-2.7-.3-3.3Z"></path>
+                    </svg>
+                  </span>
+                  <div>
+                    <span>WhatsApp / Telegram</span>
+                    <div class="contact-row__links">
+                      <a data-whatsapp-link href="#" target="_blank" rel="noreferrer">WhatsApp</a>
+                      <a data-telegram-link href="#" target="_blank" rel="noreferrer">Telegram</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-row">
+                  <span class="contact-row__icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 21s6-5.4 6-11a6 6 0 1 0-12 0c0 5.6 6 11 6 11Z"></path>
+                      <circle cx="12" cy="10" r="2.5"></circle>
+                    </svg>
+                  </span>
+                  <div>
+                    <span>Адрес</span>
+                    <strong data-address>Москва, Большая Никитская, 18</strong>
+                  </div>
+                </div>
+
+                <div class="contact-row">
+                  <span class="contact-row__icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="12" r="9"></circle>
+                      <path d="M12 7v5l3 2"></path>
+                    </svg>
+                  </span>
+                  <div>
+                    <span>Часы работы</span>
+                    <strong data-hours>Ежедневно, 09:00-21:00</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card__actions">
+                <a class="button" data-whatsapp-link href="#" target="_blank" rel="noreferrer">Написать в WhatsApp</a>
+                <a class="button button--ghost" data-phone-link href="#">Позвонить</a>
+              </div>
+            </aside>
+
+            <div class="form-card reveal">
+              <h3>Заявка на подбор букета</h3>
+              <p class="form-card__lead">
+                Оставьте имя, телефон и комментарий. Можно указать повод, желаемую гамму, бюджет или
+                выбранный букет из каталога.
+              </p>
+
+              <form id="lead-form" novalidate>
+                <input type="hidden" id="selected-bouquet" name="selectedBouquet">
+
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label for="name">Имя</label>
+                    <input class="input" id="name" name="name" type="text" placeholder="Как к вам обращаться">
+                    <span class="field-error" data-error-for="name"></span>
+                  </div>
+
+                  <div class="form-field">
+                    <label for="phone">Телефон</label>
+                    <input
+                      class="input"
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      inputmode="tel"
+                      placeholder="+7 (___) ___-__-__"
+                    >
+                    <span class="field-error" data-error-for="phone"></span>
+                  </div>
+
+                  <div class="form-field form-field--full">
+                    <label for="comment">Комментарий</label>
+                    <textarea
+                      class="input input--textarea"
+                      id="comment"
+                      name="comment"
+                      placeholder="Например: нужен букет на сегодня, бюджет до 6000 ₽, в розово-кремовой гамме"
+                    ></textarea>
+                    <span class="field-error" data-error-for="comment"></span>
+                  </div>
+                </div>
+
+                <div class="form-card__footer">
+                  <button class="button" type="submit">Отправить заявку</button>
+                  <p class="form-note">
+                    Нажимая кнопку, вы соглашаетесь с
+                    <button class="link-button" type="button" data-policy-open>политикой конфиденциальности</button>.
+                  </p>
+                </div>
+
+                <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a class="brand brand--footer" href="#top" aria-label="Bloom Atelier">
+            <span class="brand__mark">BA</span>
+            <span class="brand__text">
+              <strong data-brand-name>Bloom Atelier</strong>
+              <small>эстетичные букеты с доставкой</small>
+            </span>
+          </a>
+          <p>
+            Цветочные истории для свиданий, дней рождения, свадеб и теплых моментов без повода.
+          </p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Навигация в подвале">
+          <a href="#catalog">Каталог</a>
+          <a href="#about">О нас</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contact">Оставить заявку</a>
+        </nav>
+
+        <div class="footer__contacts">
+          <a data-phone-link href="#"><span data-phone-label>+7 (999) 123-45-67</span></a>
+          <a data-whatsapp-link href="#" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a data-telegram-link href="#" target="_blank" rel="noreferrer">Telegram</a>
+          <span data-address>Москва, Большая Никитская, 18</span>
+        </div>
+
+        <div class="footer__meta">
+          <button class="link-button" type="button" data-policy-open>Политика конфиденциальности</button>
+          <span>© <span id="current-year"></span> <span data-brand-name>Bloom Atelier</span></span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-cta" aria-label="Быстрые действия">
+      <a data-phone-link href="#">Позвонить</a>
+      <a data-whatsapp-link href="#" target="_blank" rel="noreferrer">WhatsApp</a>
+    </div>
+
+    <dialog class="policy-modal" id="policy-modal">
+      <div class="policy-modal__card">
+        <div class="policy-modal__head">
+          <h2>Политика конфиденциальности</h2>
+          <button class="policy-modal__close" type="button" data-policy-close aria-label="Закрыть окно">
+            ×
+          </button>
+        </div>
+        <p>
+          Мы используем данные из формы только для связи по вашему заказу, уточнения деталей букета,
+          доставки и оплаты. Имя, телефон и комментарий не публикуются и не передаются третьим лицам,
+          кроме сервисов, которые непосредственно участвуют в выполнении заказа.
+        </p>
+        <p>
+          Если вы хотите уточнить, изменить или удалить оставленные данные, свяжитесь с нами по телефону
+          или через мессенджер, указанный на сайте.
+        </p>
+      </div>
+    </dialog>
+  </body>
+</html>
